@@ -1,0 +1,14 @@
+
+-Creates venv named xyz:
+    python3 -m venv xyz
+
+-Activates xyz venv:
+    source xyz/bin/activate
+
+    ("Python: Select Interpreter" on vscode also works)
+
+-Installs pname package on xyz venv:
+    pip install pname
+
+-Deactivates current venv:
+    deactivate
